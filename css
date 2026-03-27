@@ -1,1 +1,32 @@
 
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+.products {
+  display: flex;
+  gap: 20px;
+}
+.product {
+  border: 1px solid #ccc;
+  padding: 10px;
+  width: 200px;
+}
+  .cart-item {
+            border:1px solid #ccc;
+            padding:10px;
+            margin:10px;
+            display:flex;
+            align-items:center;
+        }
+        .cart-item img {
+            width:100px;
+            margin-right:15px;
+        }
+        .cart-actions {
+            margin-top:10px;
+        }
+
+  .cart-item {border:1px solid #db12ba; padding:10px; margin:10px; display:flex; align-items:center;}
+        .cart-item img {width:100px; margin-right:15px;}
+        .cart-actions {margin-top:10px;}
